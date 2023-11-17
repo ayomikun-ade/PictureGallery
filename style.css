@@ -52,7 +52,7 @@ header h1 {
   width: 100%;
   border-radius: 8px;
   transition: transform 0.5s;
-  margin-bottom: 0.2rem;
+  /* margin-bottom: 0.2rem; */
 }
 .photo img:hover {
   transform: scale(1.03);
@@ -61,6 +61,7 @@ header h1 {
   font-size: 1.3rem;
   cursor: pointer;
   transition: 0.3s;
+  padding: 0.4rem 0;
 }
 .photo p:hover {
   color: #979595;
@@ -68,6 +69,8 @@ header h1 {
 
 .more {
   text-align: center;
+  width: 90vw;
+  margin: 0 auto;
   margin-bottom: 2rem;
 }
 
@@ -104,9 +107,9 @@ header h1 {
     font-size: 1.5rem;
   }
 
-  .photo img {
+  /* .photo img {
     width: 250px;
-  }
+  } */
   .photo p {
     font-size: 1rem;
   }
