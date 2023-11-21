@@ -1,9 +1,7 @@
-let names = document.querySelectorAll(".name");
-
-names.forEach((name) => {
-  name.addEventListener("click", function () {
-    name.style.color = "#FFE500";
-    name.parentElement.style.backgroundColor = "grey";
-    name.parentElement.style.borderRadius = "8px";
-  });
-});
+function changeColor(element, newColor, backColor) {
+  element.style.color = newColor;
+  element.parentElement.style.backgroundColor = backColor;
+  element.parentElement.style.borderRadius = "8px";
+  element.parentElement.style.padding = "1rem";
+  element.style.paddingTop = "1rem";
+}

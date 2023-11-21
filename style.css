@@ -41,6 +41,7 @@ header h1 {
   margin-bottom: 2rem;
   padding: 1.5rem;
   border-bottom: 0.2rem solid #da291c;
+  transition: 0.3s;
 }
 
 .photo {
@@ -59,6 +60,7 @@ header h1 {
 }
 .photo p {
   font-size: 1.3rem;
+  font-weight: 500;
   cursor: pointer;
   transition: 0.3s;
   padding: 0.4rem 0;
@@ -110,7 +112,7 @@ header h1 {
   /* .photo img {
     width: 250px;
   } */
-  .photo p {
+  /* .photo p {
     font-size: 1rem;
-  }
+  } */
 }
